@@ -1,0 +1,234 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #botonJugar{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/inicioBotonJugar.png");
+    left: 530px;
+    top: 310px;
+    
+}
+
+.tablaPuntuacion {     
+    font-style: bold;
+    font-size: 12px;        
+    width: 325px; 
+    text-align: left;    
+    border-collapse: collapse;
+    border: 2px solid black;
+     
+}
+
+@font-face {
+    font-family: "camello";
+    src: url(../fuentes/KIdDOS-Regular.ttf);
+}
+
+@font-face {
+    font-family: "camello2";
+    src: url(../fuentes/alamain1.ttf);
+}
+
+th {     
+    font-size: 17px;     
+    /* font-weight: normal;      */
+    padding: 8px;
+    font-family: "camello";
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-style: oblique;     */
+    background: #a17f0f;
+    border-top: 4px solid #0e0101;    
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    color: rgb(0, 0, 0); 
+}
+
+td {
+    font-size: 17px;
+    font-family: "camello";    
+    padding: 8px;     
+    background: #b6ad5c;     
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);    
+    border-top: 1px solid transparent; 
+}
+
+tr:hover td { 
+    background: #331e0a; 
+    color: rgb(63, 46, 10);
+    color: aliceblue; 
+}
+
+/* .tablaPuntuacion{
+    width: 100%;
+    border-spacing: 10px;
+    border-collapse: separate;
+    text-align: left;
+    border: 5px solid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+} */
+
+
+#taparJugar{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/taparJugar.png");
+    left: 530px;
+    top: 310px;
+    z-index: 25;
+}
+
+#botonInstrucciones{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/inicioBotonInstrucciones.png");
+    left: 530px;
+    top: 440px;
+}
+
+#botonDificultad{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/botonDificultad.png");
+    left: 530px;
+    top: 570px;
+}
+
+#ranking{
+    height: 520px;
+    width: 330px;
+    background-size: cover;
+    position: fixed;
+    /* background-color: black; */
+    left: 1070px;
+    top: 270px;
+}
+
+#menuInicio{
+    z-index: 21;
+    height: 818px;
+    width: 1090px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/inicio2.png");
+    left: 430px;
+    top: 80px;
+}
+
+body {
+    background-color: rgb(148, 108, 108);
+    z-index: 1;
+}
+
+#fondo{
+    width: 100%;
+    height: 4000px;
+    position: fixed;
+    background-image: url("../img/fondo.jpg");
+    z-index: 2;
+   bottom: 0px;
+}
+
+#instrucciones{
+    height: 660px;
+    width: 880px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/instrucciones.png");
+    left: 840px;
+    top: 60px;
+    z-index: -20;
+}
+
+#salirInstrucciones {
+    height: 60px;
+    width: 280px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/volver.png");
+    left: 760px;
+    top: 680px;
+}
+
+#giffInstrucciones{
+    height: 600px;
+    width: 600px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/giffInstrucciones.gif");
+    left: 250px;
+    top: 85px;
+    z-index: -25;
+    border: 10px ridge rgb(0, 0, 0);
+}
+
+#menuDificultad{
+    z-index: -20;
+    height: 818px;
+    width: 1090px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/dificultad.png");
+    left: 430px;
+    top: 80px;
+}
+
+#botonFacil{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/botonFacil.png");
+    left: 530px;
+    top: 310px;
+}
+
+#botonNormal{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/botonNormal.png");
+    left: 530px;
+    top: 440px;
+}
+
+#botonDificil{
+    height: 100px;
+    width: 390px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/botonDificil.png");
+    left: 530px;
+    top: 570px;
+}
+
+#salirJuego{
+    height: 60px;
+    width: 280px;
+    background-size: cover;
+    position: fixed;
+    background-image: url("../img/salir.png");
+    left: 580px;
+    top: 710px;
+    z-index: 30;
+}
+
+
+
